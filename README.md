@@ -1,73 +1,139 @@
-# Welcome to your Lovable project
+# Ayuka Ascent
 
-## Project info
+A modern, high-performance frontend built with **Vite**, **React**, **TypeScript**, and **Tailwind CSS**, designed for scalability, clean UI, and smooth developer experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Tech Stack
 
-There are several ways of editing your application.
+- **Vite** – Fast build tool and dev server
+- **React** – Component-based UI library
+- **TypeScript** – Type-safe JavaScript
+- **Tailwind CSS** – Utility-first styling
+- **shadcn/ui** – Accessible, customizable UI components
+- **PostCSS** – CSS transformations
+- **ESLint** – Code quality and linting
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📁 Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+```txt
+.
+├── public/              # Static assets
+├── src/                 # Application source code
+│   ├── components/      # Reusable UI components
+│   ├── styles/          # Global styles (Tailwind)
+│   ├── main.tsx         # App entry point
+│   └── App.tsx          # Root component
+├── index.html           # HTML template
+├── tailwind.config.ts   # Tailwind configuration
+├── postcss.config.js    # PostCSS configuration
+├── vite.config.ts       # Vite configuration
+├── tsconfig*.json       # TypeScript configurations
+└── package.json         # Project metadata & scripts
+🛠️ Getting Started
+1️⃣ Clone the repository
+bash
+Copy code
+git clone https://github.com/<your-username>/ayuka-ascent.git
+cd ayuka-ascent
+2️⃣ Install dependencies
+bash
+Copy code
+npm install
+or
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy code
+pnpm install
+3️⃣ Start the development server
+bash
+Copy code
 npm run dev
-```
+The app will be available at:
 
-**Edit a file directly in GitHub**
+arduino
+Copy code
+http://localhost:8080/
+📦 Available Scripts
+Command	Description
+npm run dev	Start development server
+npm run build	Build for production
+npm run preview	Preview production build
+npm run lint	Run ESLint
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🎨 Styling & UI
+Tailwind CSS is used for styling
 
-**Use GitHub Codespaces**
+Custom design tokens are defined via CSS variables
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+shadcn/ui components are fully themeable
 
-## What technologies are used for this project?
+Supports gradients, glassmorphism, and glow effects
 
-This project is built with:
+🌙 Theming
+The project supports dark mode using CSS variables and Tailwind utilities.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can extend or customize:
 
-## How can I deploy this project?
+Colors
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Shadows
 
-## Can I connect a custom domain to my Lovable project?
+Border radius
 
-Yes, you can!
+Animations
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+via tailwind.config.ts and global styles.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📈 Performance
+Fast HMR via Vite
+
+Tree-shaking enabled
+
+Optimized production builds
+
+Minimal runtime overhead
+
+🧪 Linting & Code Quality
+ESLint configured for React + TypeScript
+
+Enforced consistent coding standards
+
+Easy to extend rules as the project grows
+
+🚀 Deployment
+This project can be deployed on platforms like:
+
+Vercel
+
+Netlify
+
+Cloudflare Pages
+
+Build command:
+
+bash
+Copy code
+npm run build
+Output directory:
+
+Copy code
+dist/
+🤝 Contributing
+Contributions are welcome!
+
+Fork the repo
+
+Create a feature branch
+
+Commit your changes
+
+Open a pull request
+
+📄 License
+This project is licensed under the MIT License.
+
+✨ Author
+Built and maintained by Ayuka.
